@@ -1,14 +1,47 @@
-.main {
-    width: 85%;
-    max-width: 500px;
-    margin: 0 auto;
-    border-radius: 10px;
+body {
+    color: #fffeec;
 }
 
-div > h1 {
+@media screen and (min-width: 250px) and (max-width: 600px) {
+    body {
+        background-image: url(/assets/bg_mobile.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1442px) {
+    body {
+        background-image: url(/assets/bg_pc.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+
+header {
     text-align: center;
 }
 
-div > a {
-    display: block;
+.main, footer {
+    background-color: #dfe2fc30;
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 25px #a0a0a0;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 7px
+}
+
+.footer {
+    margin: 20px auto;
+}
+
+.m-text {
+    margin: 5px 10px;
+}
+
+a {
+    color: #fffeec;
 }
