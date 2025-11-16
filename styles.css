@@ -1,0 +1,14 @@
+.main {
+    width: 85%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+div > h1 {
+    text-align: center;
+}
+
+div > a {
+    display: block;
+}
